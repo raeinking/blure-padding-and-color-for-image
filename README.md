@@ -1,0 +1,1 @@
+# blure-padding-and-color-for-image
