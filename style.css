@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+:root {
+    --padding: 0px;
+    --blur: 0px;
+    --color: #dcf35c;
+}
+
+img {
+    width: 350px;
+    border: var(--padding) solid;
+    filter: blur(var(--blur));
+    border-color: var(--color);
+}
+
+h1 {
+    color: var(--color);
+}
